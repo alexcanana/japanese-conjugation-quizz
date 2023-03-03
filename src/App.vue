@@ -1,5 +1,5 @@
 <script setup>
-import TheQuizz from "./components/TheQuizz.vue";
+import TheQuizz from "@/components/quizz/TheQuizz.vue";
 </script>
 
 <template>

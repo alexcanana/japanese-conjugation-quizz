@@ -1,7 +1,7 @@
 <script setup>
 import { computed, inject, ref, watch } from "vue";
-import Modal from "./Modal.vue";
-import Switch from "./Switch.vue";
+import Modal from "@/components/Modal.vue";
+import Switch from "@/components/Switch.vue";
 
 const optionsStore = inject("optionsStore");
 

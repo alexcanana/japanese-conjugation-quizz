@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { useQuizzStore } from "./quizz";
+import { useQuizzStore } from "@/stores/quizz";
 
 const defaultOptions = {
   ui: {

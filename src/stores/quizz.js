@@ -1,9 +1,7 @@
 import { defineStore } from "pinia";
 import { list, remove } from "wild-wild-path";
-
-import { useOptionsStore } from "./options";
-
-import allWords from "../json/words.json";
+import { useOptionsStore } from "@/stores/options";
+import allWords from "@/json/words.json";
 
 export const useQuizzStore = defineStore("quizz", {
   state: () => {

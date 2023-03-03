@@ -1,15 +1,15 @@
 <script setup>
 import { onMounted, provide, reactive } from "vue";
 
-import QuizzAnswerInput from "./QuizzAnswerInput.vue";
-import QuizzInstructions from "./QuizzInstructions.vue";
-import QuizzOptionsModal from "./QuizzOptionsModal.vue";
-import QuizzQuestion from "./QuizzQuestion.vue";
-import QuizzResult from "./QuizzResult.vue";
-import QuizzScore from "./QuizzScore.vue";
+import QuizzAnswerInput from "@/components/quizz/QuizzAnswerInput.vue";
+import QuizzInstructions from "@/components/quizz/QuizzInstructions.vue";
+import QuizzOptionsModal from "@/components/quizz/QuizzOptionsModal.vue";
+import QuizzQuestion from "@/components/quizz/QuizzQuestion.vue";
+import QuizzResult from "@/components/quizz/QuizzResult.vue";
+import QuizzScore from "@/components/quizz/QuizzScore.vue";
 
-import { useOptionsStore } from "../stores/options";
-import { useQuizzStore } from "../stores/quizz";
+import { useOptionsStore } from "@/stores/options";
+import { useQuizzStore } from "@/stores/quizz";
 
 const quizzStore = useQuizzStore();
 const optionsStore = useOptionsStore();
